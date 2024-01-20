@@ -1,29 +1,3 @@
-# README #
-
-This README would normally document whatever steps are necessary to get your application up and running.
-
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+This repository is responsible for creation of GCP cloud run v2 job and a cloud scheduler to excecute the same on given amount of time.
+Only changes that are required to be done at terraform.tfvars.
+It is requiring a special GCP beta provider as standard provider does not support the scheduler on GCP cloud run job
